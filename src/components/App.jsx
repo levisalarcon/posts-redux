@@ -1,5 +1,7 @@
 import React from 'react';
 
+import PostList from './PostList';
+
 class App extends React.Component{
     constructor(props){
         super(props);
@@ -8,8 +10,8 @@ class App extends React.Component{
 
     render(){
         return(
-            <div>
-                "Posts"
+            <div className="ui container">
+                <PostList />
             </div>
         )
     }
